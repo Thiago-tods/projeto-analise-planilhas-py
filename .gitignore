@@ -1,0 +1,36 @@
+# Credenciais e variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Dados reais e arquivos gerados
+Bases de Dados/
+Backup Arquivos Lojas/
+Relatorios/
+
+# Logs
+*.log
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Configurações de editores
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
